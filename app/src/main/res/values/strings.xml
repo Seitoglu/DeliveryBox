@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DeliveryBox</string>
+
+    <string-array name="countriesArray">
+        <item>България</item>
+        <item>Гърция</item>
+        <item>Търция</item>
+        <item>Сърбия</item>
+        <item>Румъния</item>
+    </string-array>
+
+    <string-array name="shipmentType">
+        <item>Документална</item>
+        <item>Пощенска (до 5кг)</item>
+        <item>Куриерска (до 20кг)</item>
+        <item>Карго (до 50кг)</item>
+        <item>Палетна (над 50кг)</item>
+    </string-array>
+
+    <string-array name="paymentType">
+        <item>в брой</item>
+        <item>с дебитна/кредитна карта</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

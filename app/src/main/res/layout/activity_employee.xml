@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeActivity">
+
+  <Button
+      android:id="@+id/btnCheckEmployeeAccount"
+      android:layout_width="147dp"
+      android:layout_height="65dp"
+      android:layout_marginEnd="35dp"
+      android:text="Редактиране на акаунт"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnCreateAccount2"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/btnEmployeeExit"
+      android:layout_width="147dp"
+      android:layout_height="65dp"
+      android:layout_marginTop="33dp"
+      android:layout_marginEnd="128dp"
+      android:text="ИЗХОД"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnCheckAccount2"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/btnEditShipment2"
+      android:layout_width="147dp"
+      android:layout_height="65dp"
+      android:layout_marginStart="35dp"
+      android:layout_marginEnd="111dp"
+      android:text="Редактиране на пратка"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnCheckShipment2"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/btnCheckAccount2"
+      android:layout_width="147dp"
+      android:layout_height="65dp"
+      android:layout_marginStart="35dp"
+      android:layout_marginEnd="111dp"
+      android:text="Провери акаунт"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnEditShipment2"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/btnCheckClient2"
+      android:layout_width="147dp"
+      android:layout_height="65dp"
+      android:layout_marginTop="85dp"
+      android:layout_marginEnd="35dp"
+      android:text="Преглед на Клиенти"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewEmployeeName"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/btnCheckEmployee2"
+      android:layout_width="147dp"
+      android:layout_height="65dp"
+      android:layout_marginEnd="35dp"
+      android:text="Преглед на Служители"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnCheckClient2"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/btnCreateAccount2"
+      android:layout_width="147dp"
+      android:layout_height="65dp"
+      android:layout_marginEnd="35dp"
+      android:text="Създаване на Акаунт"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnCheckEmployee2"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/btnCheckShipment2"
+      android:layout_width="147dp"
+      android:layout_height="65dp"
+      android:layout_marginStart="35dp"
+      android:text="Провери пратка"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnCreateShipment2"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/btnCreateShipment2"
+      android:layout_width="147dp"
+      android:layout_height="65dp"
+      android:layout_marginStart="35dp"
+      android:layout_marginTop="85dp"
+      android:text="Създаване на пратка"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewEmployeeName" />
+
+  <TextView
+      android:id="@+id/textViewEmployeeName"
+      android:layout_width="260dp"
+      android:layout_height="40dp"
+      android:layout_marginStart="70dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="87dp"
+      android:text="TextView"
+      android:textAlignment="center"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+  <TextView
+      android:id="@+id/textView33"
+      android:layout_width="171dp"
+      android:layout_height="70dp"
+      android:layout_marginStart="110dp"
+      android:layout_marginTop="75dp"
+      android:layout_marginEnd="125dp"
+      android:text="Здравей"
+      android:textAlignment="center"
+      android:textAllCaps="false"
+      android:textSize="30sp"
+      android:textStyle="italic"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.2"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
